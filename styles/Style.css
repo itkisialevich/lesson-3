@@ -1,0 +1,398 @@
+/* Basic config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1400px;
+}
+
+/* Nav config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.nav {
+    background-color:#000000;
+}
+
+.nav-logobox {
+    display: inline-block;
+    margin-left: 110px;
+}
+
+.nav-logotext {
+    padding-top: 20px;
+    margin-bottom: 19px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.startlogo {
+    color: #ffffff;
+}
+
+.endlogo {
+    color: #EC7979;
+}
+.navlist  {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 625px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+}
+.listtext {
+    display: inline-block;
+    padding-top: 25px;
+    padding-right: 48px;
+}
+
+/* Header config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.header {
+    display: inline-block;
+    background-image: url(../img/background-1\ 1.png);
+}
+
+.headersecleft {
+    display: inline-block;
+    width: 540px;
+    padding-top: 108px;
+    margin-left: 110px;
+}
+
+.header-title {
+    margin-bottom: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.header-subtitle {
+    margin-bottom: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.header-line {
+    width: 64px;
+    margin-bottom: 39px;
+    border: 1px solid #FFFFFF;
+}
+
+.subtitle-headertext {
+    width: 282px;
+}
+
+.header-text {
+    margin-bottom: 39px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.button {
+    margin-bottom: 101px;
+    width: 135px;
+    height:42px;
+    border-color:#ffffff;
+    border-style: solid;
+    border-width: 1px;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.headersecrigt {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 110px;
+    margin-left: 265px;
+    margin-right: 111px;
+    margin-bottom: 120px;
+}
+
+.freetrial {
+    width: 370px;
+    height: 370px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.titlefreetrial {
+    padding-top: 15px;
+    margin-bottom: 44px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.free {
+    color: #EC7979;
+    text-transform: uppercase;
+}
+
+.divfield {
+    margin-left: 59px;
+    margin-right: 111px;
+}
+
+.namefreetrial {
+    margin-bottom: 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.fieldfreetrial {
+    margin-bottom: 19px;
+    width: 252px;
+    height: 3px;
+    border: none;
+    border-top: 1px solid #BDBDBD;
+}
+
+.buttonfreetrial {
+    margin-top: 42px;
+    width: 370px;
+    height: 53px;
+    background-color: #EC7979;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+/* Social icons config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.socialmedia {
+    background-color: aqua;
+    width: 1400px;
+    height: 110px;
+    background-color: #F8EFEF;
+}
+
+.sm-text {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 111px;
+}
+
+.sm-title {
+    padding-top: 14px;
+    margin-bottom: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.sm-p-one {
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.sm-p-two {
+    margin-bottom: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.social-icons {
+    display: inline-block;
+    background-image: url(../img/social__icons.png);
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 684px;
+    margin: 34px 111px 34px 129px;
+}
+.icon-size {
+    height: 42px;
+    width: 100px;
+}
+
+.facebook { 
+    background-position: left top; 
+}
+
+/* Tab config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.block-tab {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 125px;
+    margin-left: 111px;
+    margin-bottom: 115px;
+    width: 112px;
+}
+
+.otherblock {
+    width: 112px;
+    height: 110px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF; 
+    text-align: center;
+}
+
+.textintab {
+    padding-top: 45px;
+}
+
+.firstblock-tab {
+    background-color: #EC7979;
+}
+
+.text-tab {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 126px;
+    margin-left: 118px;
+    margin-bottom: 125px;
+    width: 572px;
+}
+
+.title-tab {
+    margin-bottom: 58px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.ptext-tab {
+    margin-bottom: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #86878B;
+}
+
+.button-tab {
+    margin-top: 75px;
+    width: 135px;
+    height:42px;
+    border: none;
+    background-color: #EC7979;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.picture-tab {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+    margin-left: 40px;
+    margin-right: 117px;
+    margin-bottom: 247px;
+}
+
+.img-tab {
+    width: 320px;
+    height: 253px;
+}
+
+/* Article four config ----------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+.article-four {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.div-title {
+    padding-top: 100px;
+    margin-bottom: 25px;
+    color: #212121;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.div-line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background-color: #e72424;
+    border: none;
+}
+
+.div-subtitle {
+    padding-bottom: 36px;
+    color: #86878B;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sectionfour {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 350px;
+    margin: 31px 16px 89px;
+    padding: 20px 0;
+}
+
+.card-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    border: 1px solid #e72424;
+}
+
+.card-title {
+    margin-bottom: 16px;
+    color: #333333;
+    font-size: 20px;
+}
+
+.card-description {
+    font-size: 14px;
+}
+
+.icon--lamp {
+    background: url(../img/lamp.png) no-repeat center center;
+}
+
+.icon--keyboard {
+    background: url(../img/keyboard.png) no-repeat center center;
+}
+
+.icon--lightning {
+    background: url(../img/lightning.png) no-repeat center center;
+}
